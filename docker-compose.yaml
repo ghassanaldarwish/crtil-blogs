@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  blogs-client:
+    image: "ghassanaldarwish/crtil-blogs-1-client"
+    restart: always
+    ports:
+      - "3004:3004"
