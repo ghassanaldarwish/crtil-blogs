@@ -1,14 +1,11 @@
 ---
-layout: "../../layouts/BlogPost.astro"
-title: "First post"
-description: "Lorem ipsum dolor sit amet"
-pubDate: "Jul 08 2022"
-heroImage: "/placeholder-hero.jpg"
+layout: ../../layouts/BlogPost.astro
+title: Accessibility, Understanding the cascade, specificity and inheritance
+description: Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them.
+pubDate: Jul 08 2022
+author: Ghassan Aldarwish
+heroImage: https://multichannelmerchant.com/wp-content/uploads/2021/06/dreamhost-accessibility-tips-750x498-1.jpg
 ---
-
-# Accessibility, Understanding the cascade, specificity and inheritance (31/08/2022)
-
-![enter image description here](https://multichannelmerchant.com/wp-content/uploads/2021/06/dreamhost-accessibility-tips-750x498-1.jpg)
 
 We are going to cover:
 
