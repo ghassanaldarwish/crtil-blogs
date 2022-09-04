@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "start": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy": "git pull && npm install && astro build"
   },
   "dependencies": {
     "@astrojs/mdx": "^0.11.1",
