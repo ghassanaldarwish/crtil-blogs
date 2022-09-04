@@ -12,5 +12,6 @@ export default defineConfig({
     // Can be 'shiki' (default), 'prism' or false to disable highlighting
     syntaxHighlight: false,
   },
+  base: "/blogs",
   server: { port: 3004, host: true },
 });
