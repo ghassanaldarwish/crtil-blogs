@@ -18,5 +18,4 @@ COPY --from=builder /my-project/public ./public
 COPY --from=builder /my-project/node_modules ./node_modules
 COPY --from=builder /my-project/package.json ./package.json
 
-EXPOSE 3004
 CMD ["npm","run" ,"preview"]
