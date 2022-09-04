@@ -5,7 +5,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://crtil.com",
+  site: "https://blogs.crtil.com",
   integrations: [mdx(), sitemap(), tailwind()],
   markdown: {
     // Can be 'shiki' (default), 'prism' or false to disable highlighting

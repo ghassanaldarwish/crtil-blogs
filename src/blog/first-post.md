@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/BlogPost.astro
+layout: ../layouts/BlogPost.astro
 title: Accessibility, Understanding the cascade, specificity and inheritance
 description: Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them.
 pubDate: Jul 08 2022

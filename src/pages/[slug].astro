@@ -1,0 +1,17 @@
+---
+import slugify from "../utility/slugify";
+export async function getStaticPaths() {
+  const posts = await Astro.glob("../blog/*.md");
+  return posts.map((post) => ({
+    params: {
+      slug: slugify(post.frontmatter.title),
+    },
+    props: {
+      post,
+    },
+  }));
+}
+const { Content } = Astro.props.post;
+---
+
+<Content />
